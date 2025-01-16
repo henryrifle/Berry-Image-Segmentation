@@ -279,13 +279,13 @@ def clear_berries(os_walk_directory,exclude_set):
 
 if __name__ == '__main__':
 	#path to the image you want to use
-	path_to_image=r"C:\Users\hkerr\OneDrive\Desktop\USDA Program\Images\Berry Box Corrected\DSC_1166-corrected.jpg"
+	path_to_image=r''
 	#directory you would want to walk through checking for images
-	os_walk_directory=r'C:\Users\hkerr\OneDrive\Desktop\USDA Program'
+	os_walk_directory=r''
 	#set of directories you dont want to walk through
-	exclude_set=set(['Images', 'Notes','Programs'])
+	exclude_set=set(['Berry_Box_Corrected','Berry_Bush'])
 	#location where you would want to save your images
-	img_save_location=r'C:\Users\hkerr\OneDrive\Desktop\USDA Program\Images'
+	img_save_location=r''
 	df = pd.DataFrame(  columns =  ['Image Filename', 'X Min','X Max','Y Min','Y Max']) 
 	
 

@@ -1,7 +1,4 @@
 # Mac Os Version
-
-#Required Imports
-
 import matplotlib.pyplot as plt
 import cv2
 import numpy as np
@@ -282,13 +279,13 @@ def clear_berries(os_walk_directory,exclude_set):
 
 if __name__ == '__main__':
 	#path to the image you want to use
-	path_to_image="/Users/henrykern/Desktop/Resume_Prodjects/Python_Prodjects/USDA/Images/Images/Berry_Bush/ayt_2013_bog10_row9_col1_frame1640_GX010228_cropped.jpg"
+	path_to_image="/workspaces/Berry-Image-Segmentation/Berry_Box_Corrected/DSC_1515-corrected.PNG"
 	#directory you would want to walk through checking for images
-	os_walk_directory="/Users/henrykern/Desktop/Resume_Prodjects/Python_Prodjects/USDA"
+	os_walk_directory="/workspaces/Berry-Image-Segmentation"
 	#set of directories you dont want to walk through
-	exclude_set=set(["Notes","Programs","Other","Berry_Box_Masks"])
+	exclude_set=set(["Berry_Box_Corrected","Berry_Bush"])
 	#location where you would want to save your images
-	img_save_location="/Users/henrykern/Desktop/Resume_Prodjects/Python_Prodjects/USDA/Images"
+	img_save_location="/workspaces/Berry-Image-Segmentation"
 	df = pd.DataFrame(  columns =  ['Image Filename', 'X Min','X Max','Y Min','Y Max']) 
 	
 	#Functions,remove comments to run
