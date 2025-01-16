@@ -2,8 +2,8 @@
 
 ## Project Overview
 This color filter code is used to filter out non berry photos by using the hsv values of the red berries.
-First the program seperates all contours using the segmentation pipline 
-After the images contours are found the color filter function will seperate all the berry contours from the others
+First the program separates all contours using the segmentation pipline 
+After the images contours are found the color filter function will separate all the berry contours from the others
 
 
 ## Technologies Used
