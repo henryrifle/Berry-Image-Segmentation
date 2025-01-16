@@ -1,8 +1,0 @@
-mathplotlib
-opencv
-numpy
-skimage
-glob
-scipy
-os
-pillow
